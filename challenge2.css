@@ -1,0 +1,83 @@
+<div class="main-body"></div>
+<div class="eye"></div>
+<div class="wings1"></div>
+<div class="wings2"></div>
+<div class="wings-support"></div>
+<div class="yellow-border-1"></div>
+<div class="yellow-border-2"></div>
+<div class="head"></div>
+<style>
+  body{
+    background:#998235;
+    position:relative;
+  }
+  .main-body {
+    width: 150px;
+    height: 75px;
+    background: #191919;
+    top:47vh;
+    border-radius:50px;
+    left: 30vw;
+    position:absolute;
+  }
+  .eye{
+    width:15px;
+    height:15px;
+    position:absolute;
+    border-radius:50%;
+    background:#191919;
+    top:53vh;
+    left:59vw;
+    z-index:1;
+  }
+  .wings1{
+    width:76px;
+    height:76px;
+    position:absolute;
+    border-radius:50%;
+    background:#FFFFFF;
+    top:21.71vh;
+    left:30vw;    
+  }
+  .wings2{
+    width:76px;
+    height:76px;
+    position:absolute;
+    border-radius:50%;
+    background:#FFFFFF;
+    top:21.71vh;
+    left:48.6vw;    
+  }
+  .wings-support{
+    width:87px;
+    height:30px;
+    background:#FFFFFF;
+    position:absolute;
+    top:36.9vh;
+    left:38vw;
+  }
+  .yellow-border-1, .yellow-border-2{
+    position:absolute;
+    height:75px;
+    width:10px;
+    background:#EFF33C;
+  }
+  .yellow-border-1{
+    top:47vh;
+    left:47vw;
+  }
+  .yellow-border-2{
+    top:47vh;
+    left:38vw;
+  }
+  .head{
+    width:50px;
+    height:75px;
+    position:absolute;
+    background:#EFF33C;
+    border-radius: 50px 0 0 50px;
+    transform:rotate(180deg);
+    top:47vh;
+    left:55.2vw;
+  }
+</style>
